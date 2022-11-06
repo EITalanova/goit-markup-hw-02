@@ -1,6 +1,7 @@
 :root {
   --text-main: #212121;
   --back-grey: #2f303a;
+  --back-lgrey: #f5f4fa;
   --activity-blue: #2196f3;
   --text-grey: #757575;
   --text-white: #ffffff;
@@ -9,12 +10,11 @@
 
 body {
   color: var(--text-main);
-  font-family: "Roboto";
-  font-style: normal;
+  font-family: "Roboto", sans-serif;
 }
 
 .logo {
-  font-family: "Raleway";
+  font-family: "Raleway", sans-serif;
   font-style: normal;
   font-weight: 700;
   font-size: 26px;
@@ -29,7 +29,6 @@ body {
 
 .logo_theme-light {
   color: var(--text-black);
-  text-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
 }
 
 .logo_theme-dark {
@@ -42,6 +41,7 @@ body {
   line-height: 1.14;
   letter-spacing: 0.02em;
   text-decoration: none;
+  color: inherit;
 }
 
 .menu_list_link-active {
@@ -76,15 +76,12 @@ body {
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
-  text-align: center;
   letter-spacing: 0.06em;
   text-transform: uppercase;
   color: var(--text-white);
 }
 
 .hero_button {
-  width: 216px;
-  height: 50px;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.88;
@@ -102,13 +99,9 @@ body {
   line-height: 1.14;
   letter-spacing: 0.03em;
   text-transform: uppercase;
-  width: 270px;
-  height: 16px;
 }
 
 .table_text {
-  width: 270px;
-  height: 72px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -117,8 +110,6 @@ body {
 }
 
 .what-we-do_title {
-  width: 366px;
-  height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -127,12 +118,10 @@ body {
 }
 
 .team {
-  background-color: #f5f4fa;
+  background-color: var(--back-lgrey);
 }
 
 .team_title {
-  width: 264px;
-  height: 42px;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -140,17 +129,13 @@ body {
 }
 
 .team_list-title {
-  width: 129px;
-  height: 19px;
   font-weight: 500;
   font-size: 16px;
-  line-height: 19px;
+  line-height: 1.19;
   letter-spacing: 0.03em;
 }
 
 .team_list-text {
-  width: 130px;
-  height: 19px;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.88;
@@ -168,8 +153,6 @@ body {
 }
 
 .footer_address {
-  width: 231px;
-  height: 21px;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
@@ -178,8 +161,6 @@ body {
 }
 
 .footer_list_contact {
-  width: 231px;
-  height: 21px;
   font-style: inherit;
   font-weight: 400;
   font-size: 14px;
@@ -194,9 +175,9 @@ body {
   font-size: 16px;
   line-height: 1.63;
   letter-spacing: 0.03em;
-  height: 38px;
   border-radius: 4px;
   border: none;
+  background-color: var(--back-lgrey);
 }
 
 .filter-botton:hover,
@@ -208,14 +189,9 @@ body {
   border-radius: 4px;
 }
 
-.project {
-  width: 370px;
-  height: 404px;
-}
-
-.project-img {
-  width: 370px;
-  height: 294px;
+.project-link {
+  text-decoration: inherit;
+  color: inherit;
 }
 
 .project-title {
